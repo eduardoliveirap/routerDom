@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+header .logo {
+  color: #FFF;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+header ul {
+  display: flex;
+  gap: 26px;
+}
+
+header a{
+  display: block;
+  line-height: 46px;
+  margin: 10px 0;
+  color: #FFF;
+}
